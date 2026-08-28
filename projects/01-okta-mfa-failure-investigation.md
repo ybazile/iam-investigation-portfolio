@@ -29,13 +29,20 @@ The user reported that they were unable to complete MFA during login. Password a
 
 ## Screenshots & Evidence
 
-> Re-add these from your original captures — see repo root README for details.
+### **1. Sign-On Policy Evaluation (CHALLENGE)**
+![Sign-On Policy Challenge](../assets/01-sign-on-policy-challenge.png)
 
-- User profile – no MFA enrolled
-- MFA enrollment prompt (Okta Verify required)
-- System Log – authentication via MFA (password SUCCESS)
-- System Log – account management policy CHALLENGE
-- System Log – sign-on policy CHALLENGE
+### **2. Account Management Policy Evaluation (CHALLENGE)**
+![Account Management Policy Challenge](../assets/02-account-mgmt-policy-challenge.png)
+
+### **3. MFA Authentication Success (Password)**
+![MFA Authentication Success](../assets/03-mfa-auth-success.png)
+
+### **4. Okta Verify Enrollment Prompt**
+![Okta Verify Enrollment Prompt](../assets/04-okta-verify-enrollment-prompt.png)
+
+### **5. Reset Authenticators — No Authenticators Enrolled**
+![No Authenticators Reset Dialog](../assets/05-no-authenticators-reset-dialog.png)
 
 ## Investigation Steps
 
